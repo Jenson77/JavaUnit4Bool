@@ -108,24 +108,22 @@ public class Simulator {
 //            s.reset();
 //            s.setCar();
 //            System.out.print("Enter your guess: ");
-//            int fGuess = kb.nextInt();
-//            s.inputFirstGuess(fGuess);
+//            s.inputFirstGuess(kb.nextInt());
 //            s.setReveal();
 //            System.out.println(s.revealS());
 //            System.out.print("Enter your second guess: ");
-//            int sGuess = kb.nextInt();
-//            s.inputSecondGuess(sGuess);
+//            s.inputSecondGuess(kb.nextInt());
 //            s.sumUp();
 //            System.out.println(s.check());
-//            System.out.print("Enter 1 to continue: ");
-//            int co = kb.nextInt();
-//            cont = (co==1);
+//            System.out.print("Enter 1 to continue, 0 to exit: ");
+//            cont = (kb.nextInt()==1);
 //        }
 //        System.out.println(s);
 
         Simulator b = new Simulator();
         int count = 1000000;
         b.repeatProcess(count);
+        System.out.println(count);
         System.out.println(b);
 
 

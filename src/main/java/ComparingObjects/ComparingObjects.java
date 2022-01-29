@@ -8,6 +8,7 @@ public class ComparingObjects {
 
         String w3 = new String ("Program");
         String w4 = new String ("Program");
+        String w5 = w3;
 
         boolean isTheSame1 = w1 == w2;
         boolean isTheSame2 = w1.equals(w2);
